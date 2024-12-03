@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.sanchezih</groupId>
 	<artifactId>pvs-booking-microservice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>pvs-booking-microservice</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
