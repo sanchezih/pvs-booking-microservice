@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.github.sanchezih</groupId>
 	<artifactId>pvs-booking-microservice</artifactId>
-	<version>1.0.11</version>
+	<version>1.0.12</version>
 	<name>pvs-booking-microservice</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
@@ -66,6 +66,24 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-spring-boot3</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+			<version>1.4.7.RELEASE</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
